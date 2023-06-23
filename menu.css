@@ -53,6 +53,10 @@ align-items: center;
   color: black;
 }
 
+  .menu__list__item{
+  color: black;
+}
+
 .menu__list__item__colorido{
     font-weight: normal;
     font-size: x-small;
@@ -176,6 +180,10 @@ align-items: center;
    justify-content: space-between;
    height: 5rem;
    align-items: center;
+}
+
+  .menu__list__item{
+  color: black;
 }
 
 .menu__list__item__colorido{
