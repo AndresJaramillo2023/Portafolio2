@@ -49,6 +49,10 @@ align-items: center;
    display: none;
 }
 
+  .menu__list__item{
+  color: black;
+}
+
 .menu__list__item__colorido{
     font-weight: normal;
     font-size: x-small;
