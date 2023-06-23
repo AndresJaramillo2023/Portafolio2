@@ -1,0 +1,305 @@
+/*E X P E R I E C I A*/
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    .experience{
+        width: 80%;
+        background-color: rgb(227, 185, 71);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    /*Experiencia seccion titulo*/
+    .experience__section__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+        margin-bottom: 0.5rem;
+    }
+    
+    /*Experiencia caja*/
+    .experiencie__box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        background-color: rgb(227, 185, 71);
+        flex-direction: column;
+    }
+    /*experiencie__box__reverse*/
+    .experiencie__box__reverse{
+        flex-direction: column-reverse;
+    }
+    /*experiencia imagen*/
+    .experience__img{
+        width: 66.3%;
+    }
+    /*experiencia informacion*/
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+    /*experiencia titulo*/
+    .experience__title{
+        font-size: small;
+        font-weight: bold;
+        font-family: var(--open-sans);
+        margin-top: 0.5rem;
+    }
+    /*experiencia texto*/
+    .experience__text{
+        font-size: xx-small;
+        font-family: var(--open-sans);
+        margin-top: 0.5rem;
+    }
+    /*experiencia descripcion*/
+    .experience__description{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(227, 185, 71);
+        justify-content: flex-start;
+    }
+    /*experiencia repositorio*/
+    .experience__repo{
+        margin: 0.5rem 1rem 0rem 0rem;
+    }
+    /*experiencia boton repositorio*/
+    .experiencia__botao--repo{
+        background-color: white;
+        color:blue;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.2rem 0.3rem;
+        border-radius: 0.2rem;
+    }
+    .experiencia__botao--repo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    /*experiencia demo*/
+    .experience__demo{
+        margin: 0.5rem 0rem;
+    }
+    /*experiencia boton demostracion*/
+    .experience__botao--demo{
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.2rem 0.3rem;
+        border-radius: 0.2rem;
+    
+    }
+    .experience__botao--demo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    
+}
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    .experience{
+        width: 80%;
+        background-color: rgb(227, 185, 71);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*Experiencia seccion titulo*/
+    .experience__section__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+    }
+    
+    /*Experiencia caja*/
+    .experiencie__box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        background-color: rgb(227, 185, 71);
+        flex-direction: column;
+    }
+    /*experiencie__box__reverse*/
+    .experiencie__box__reverse{
+        flex-direction: column-reverse;
+    }
+    /*experiencia imagen*/
+    .experience__img{
+        width: 66.3%;
+    }
+    /*experiencia informacion*/
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 33.3%;
+        padding: 1rem;
+    }
+    /*experiencia titulo*/
+    .experience__title{
+        font-size: medium;
+        font-weight: bold;
+        font-family: var(--open-sans);
+    }
+    /*experiencia texto*/
+    .experience__text{
+        font-size: small;
+        font-family: var(--open-sans);
+        margin-top: 0.5rem;
+        font-size: small;
+    }
+    /*experiencia descripcion*/
+    .experience__description{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(227, 185, 71);
+    }
+    /*experiencia repositorio*/
+    .experience__repo{
+        margin: 0.5rem 0rem;
+    }
+    /*experiencia boton repositorio*/
+    .experiencia__botao--repo{
+        background-color: white;
+        color:blue;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.2rem;
+    }
+    .experiencia__botao--repo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    /*experiencia demo*/
+    .experience__demo{
+        margin: 0.5rem 0rem;
+    }
+    /*experiencia boton demostracion*/
+    .experience__botao--demo{
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.2rem;
+    
+    }
+    .experience__botao--demo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    
+}
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:1440px) {
+    .experience{
+        width: 80%;
+        background-color: rgb(227, 185, 71);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*Experiencia seccion titulo*/
+    .experience__section__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+    }
+    
+    /*Experiencia caja*/
+    .experiencie__box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        background-color: rgb(227, 185, 71);
+        flex-direction: row;
+    }
+    /*experiencia imagen*/
+    .experience__img{
+        width: 66.3%;
+    }
+    /*experiencia informacion*/
+    .experience__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 33.3%;
+        padding: 1rem;
+    }
+    /*experiencia titulo*/
+    .experience__title{
+        font-size: larger;
+        font-weight: bold;
+        font-family: var(--open-sans);
+    }
+    /*experiencia texto*/
+    .experience__text{
+        font-size: small;
+        font-family: var(--open-sans);
+        margin-top: 0.5rem;
+    
+    }
+    /*experiencia descripcion*/
+    .experience__description{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        background-color: rgb(227, 185, 71);
+    }
+    /*experiencia repositorio*/
+    .experience__repo{
+        margin: 0.5rem 0rem;
+    }
+    /*experiencia boton repositorio*/
+    .experiencia__botao--repo{
+        background-color: white;
+        color:blue;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.8rem 1.2rem;
+        border-radius: 0.2rem;
+    }
+    .experiencia__botao--repo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    /*experiencia demo*/
+    .experience__demo{
+        margin: 0.5rem 0rem;
+    }
+    /*experiencia boton demostracion*/
+    .experience__botao--demo{
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        cursor: pointer;
+        padding: 0.8rem 1.2rem;
+        border-radius: 0.2rem;
+    
+    }
+    .experience__botao--demo:hover{
+        background-color: rgb(227, 185, 71);
+        border: 0;
+    }
+    
+}

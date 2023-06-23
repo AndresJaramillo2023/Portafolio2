@@ -1,0 +1,317 @@
+/*F O R M U L A R I O  C O N T A C T O*/
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    .formcontato{
+        width: 80%;
+        background-color: lightslategrey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 40rem;
+    }
+    /*FORMULARIO CONTACTO*/
+    .formcontato__contacto{
+        background-color: pink;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 50.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    /*Formulario contacto izquierda*/
+    .formcontato--esquerda{
+        display: none;
+        background-color: gold;
+        width: 80%;
+
+    }
+    /*formulario contacto imagen*/
+    .formcontato__img{
+       display: initial;
+       width: 100px;
+       height: 100px;
+    }
+    /*Formulario contacto texto*/
+    .formcontato__text{
+        background-color:lightslategrey;
+        width: 100%;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    /*formulario contacto titulo*/
+    .formcontato__title{
+        font-family: var(--open-sans);
+        font-weight: bold;
+        font-size: medium;
+        margin:0.2rem 2rem 0.2rem 2rem;
+    
+    }
+    /*formulario contacto subtitulo*/
+    .formcontato__subtext{
+        font-family: var(--open-sans);
+        font-size: small;
+        margin: 0.05rem 2rem;
+    }
+    /*formulario contacto formulario*/
+    .formcontato__form{
+        display: flex;
+        flex-direction: column;
+        margin: 0.2rem 0.5rem;
+        align-items: center;
+        padding: 0 0 0.4rem 0;
+        justify-content: space-around;
+    }
+    /*formulario contacto caja de texto*/
+    .formcontato__input{
+        width: 80%;
+        margin: 1rem;
+        padding: 0.2rem;
+        border: 0;
+        border-radius: 0.1rem;
+        box-shadow: 0px 2px 1px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+    }
+    .formcontato__input:focus{
+        outline: 3px solid blue
+    }
+    /*formulario contacto area_de_texto*/
+    .formcontato__textarea{
+        width: 80%;
+        margin: 1rem;
+        padding: 0.2rem;
+        border: 0;
+        border-radius: 0.1rem;
+        box-shadow: 0px 2px 1px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+    }
+    .formcontato__textarea:focus{
+        outline: 3px  solid blue;
+    }
+    /*formulario contacto boton*/
+    .formcontato__botao{
+        width: 40%;
+        margin: 0.2rem auto 0.2rem 1.5rem;
+        padding: 0.2rem;
+        border-radius: 0.1rem;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        border-color: blue;
+    }
+    .formcontato__botao:hover{
+        background-color: aqua;
+        border: 0;
+    }
+}
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    .formcontato{
+        width: 80%;
+        background-color: lightslategrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*FORMULARIO CONTACTO*/
+    .formcontato__contacto{
+        background-color: pink;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 25.5rem;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    /*Formulario contacto izquierda*/
+    .formcontato--esquerda{
+        display: none;
+        background-color: gold;
+        width: 80%;
+
+    }
+    /*formulario contacto imagen*/
+    .formcontato__img{
+       display: initial;
+       width: 200px;
+       height: 200px;
+    }
+    /*Formulario contacto texto*/
+    .formcontato__text{
+        background-color:lightslategrey;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /*formulario contacto titulo*/
+    .formcontato__title{
+        font-family: var(--open-sans);
+        font-weight: bold;
+        font-size: large;
+        margin:0.5rem 4rem 0.5rem 4rem;
+    
+    }
+    /*formulario contacto subtitulo*/
+    .formcontato__subtext{
+        font-family: var(--open-sans);
+        font-size: medium;
+        margin: 0.1rem 4rem;
+    }
+    /*formulario contacto formulario*/
+    .formcontato__form{
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 1rem;
+        align-items: center;
+    
+    }
+    /*formulario contacto caja de texto*/
+    .formcontato__input{
+        width: 80%;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: 0;
+        border-radius: 0.2rem;
+        box-shadow: 0px 5px 2px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+    }
+    .formcontato__input:focus{
+        outline: 3px solid blue
+    }
+    /*formulario contacto area_de_texto*/
+    .formcontato__textarea{
+        width: 80%;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: 0;
+        border-radius: 0.2rem;
+        box-shadow: 0px 5px 2px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+    }
+    .formcontato__textarea:focus{
+        outline: 3px  solid blue;
+    }
+    /*formulario contacto boton*/
+    .formcontato__botao{
+        width: 20%;
+        margin: 0.5rem auto 0.5rem 3rem;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        border-color: blue;
+    }
+    .formcontato__botao:hover{
+        background-color: aqua;
+        border: 0;
+    }
+}
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:1440px) {
+    .formcontato{
+        width: 80%;
+        background-color: lightslategrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*FORMULARIO CONTACTO*/
+    .formcontato__contacto{
+        background-color: pink;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 40rem;
+    }
+    /*Formulario contacto izquierda*/
+    .formcontato--esquerda{
+        background-color: gold;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    /*formulario contacto imagen*/
+    .formcontato__img{
+       width: 100%;
+       height: 100%;
+    }
+    /*Formulario contacto texto*/
+    .formcontato__text{
+        background-color:lightslategrey;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    /*formulario contacto titulo*/
+    .formcontato__title{
+        font-family: var(--open-sans);
+        font-weight: bold;
+        font-size: large;
+        margin:0 2rem 1rem 2rem;
+    
+    }
+    /*formulario contacto subtitulo*/
+    .formcontato__subtext{
+        font-family: var(--open-sans);
+        font-size: medium;
+        margin: 0.2rem 2rem;
+    }
+    /*formulario contacto formulario*/
+    .formcontato__form{
+        display: flex;
+        flex-direction: column;
+        margin: 5;
+        align-items: flex-start;
+    
+    }
+    /*formulario contacto caja de texto*/
+    .formcontato__input{
+        width: 97.5%;
+        margin: 1rem;
+        padding: 1rem 1rem 1rem 0rem;
+        border: 0;
+        border-radius: 0.2rem;
+        box-shadow: 0px 5px 2px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+        font-size: large;
+    }
+    .formcontato__input:focus{
+        outline: 3px solid blue
+    }
+    /*formulario contacto area_de_texto*/
+    .formcontato__textarea{
+        width: 97.5%;
+        margin: 1rem;
+        padding: 2rem 1rem 2rem 0rem;
+        border: 0;
+        border-radius: 0.2rem;
+        box-shadow: 0px 5px 2px rgb(58, 65, 93);    /* Sombra con ligero desenfoque */
+        font-size: large;
+    }
+    .formcontato__textarea:focus{
+        outline: 3px  solid blue;
+    }
+    /*formulario contacto boton*/
+    .formcontato__botao{
+        width: 25%;
+        margin: 1rem;
+        padding: 1.2rem;
+        border-radius: 0.2rem;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        border-color: blue;
+    }
+    .formcontato__botao:hover{
+        background-color: aqua;
+        border: 0;
+    }
+}
+
+
+

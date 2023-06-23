@@ -1,0 +1,232 @@
+/*S E C C I O N   A C A D E M I C A*/
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    .academic{
+        background-color: rgb(24, 23, 23);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30rem;
+    }
+    
+    /* TITULO */
+    .academic__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+        
+    }
+    
+    /* FRANJA DE CURSOS */
+    .academic__courses{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Caja de cursos */
+    .academic__courses__box{
+        background-color: rgb(24, 23, 23);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* lista de cursos */
+    .academic__courses__list{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    /* item titulo del curso */
+    .academic__courses__item__title{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        font-size: xx-small;
+        color: #464646;
+        font-weight: bold;
+        margin: 0.3rem 0;
+    }
+    /* item subtitulo del curso */
+    .academic__courses__item__subtitle{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        color: #464646;
+        font-size: xx-small;
+    }
+    
+    /* item imagen del curso */
+    .academic__courses__item__img{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        height: 1.7rem;
+        background-color: white;
+        margin: 0.3rem;
+        padding: 2rem 0;
+    }
+    /* tamaño de imagen */
+    .academic__tamaño__imagen{
+        width: 65px;
+        height: 50px;
+        background-color: white;
+    }
+}
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    .academic{
+        background-color: rgb(24, 23, 23);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 20rem;
+    }
+    
+    /*TITULO*/
+    .academic__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+    }
+    
+    /*FRANJA DE CURSOS*/
+    .academic__courses{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    /*Caja de cursos*/
+    .academic__courses__box{
+        background-color: rgb(24, 23, 23);
+        width: 32.5%;
+        display: flex;
+        height: auto;
+        justify-content: center;
+    }
+    /*lista de cursos*/
+    .academic__courses__list{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    /*item titulo del curso*/
+    .academic__courses__item__title{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        font-size: small;
+        color: #464646;
+        font-weight: bold;
+    }
+    /*item subtitulo del curso*/
+    .academic__courses__item__subtitle{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        color: #464646;
+        font-size: small;
+    }
+    
+    /*item imagen del curso*/
+    .academic__courses__item__img{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        height: 7rem;
+        background-color: white;
+    }
+    /*tamaño de imagen*/
+    .academic__tamaño__imagen{
+        width: 130px;
+        height: 100px;
+        background-color: white;
+    }
+}
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:1440px) {
+    .academic{
+        background-color:rgb(24, 23, 23);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30rem;
+    }
+    
+    /*TITULO*/
+    .academic__title{
+        font-family: var(--open-sans);
+        font-size: medium;
+        font-weight: bold;
+        background-color: yellowgreen;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    /*FRANJA DE CURSOS*/
+    .academic__courses{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /*Caja de cursos*/
+    .academic__courses__box{
+        background-color: rgb(24, 23, 23);
+        width: 32.5%;
+        display: flex;
+        height: auto;
+        justify-content: center;
+    }
+    /*lista de cursos*/
+    .academic__courses__list{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    /*item titulo del curso*/
+    .academic__courses__item__title{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        font-size: larger;
+        font-weight: bold;
+    }
+    /*item subtitulo del curso*/
+    .academic__courses__item__subtitle{
+        justify-self: flex-start;
+        background-color: darkseagreen;
+        font-size: larger;
+    }
+    /*item imagen del cuso*/
+    .academic__courses__item__img{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        height: 10rem;
+        background-color: white;
+        margin: 3rem;
+    }
+     /*tamaño de imagen*/
+     .academic__tamaño__imagen{
+        width: 150px;
+        height: 130px;
+        background-color: white;
+    }
+ }
+

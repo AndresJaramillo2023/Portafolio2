@@ -1,0 +1,176 @@
+/*T_E_L_E_F_O_N_O*/
+@media screen and (min-width:360px) {
+    /*TITULO*/
+    .title{
+        background-color: rgb(245, 249, 245);
+        width: 80%;
+    }
+    
+    .title__div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    /*IMAGEN DE PERFIL*/
+    .title__profile{
+        width: 30%;
+        background-color: rgb(245, 249, 245);
+    }
+    
+    /*DIV DE PERFIL*/
+    .title__container{
+        background-color: rgb(245, 249, 245);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       justify-content: space-around;
+       align-items: flex-start;
+       margin: 0.5rem 0;
+    }
+    
+    /*titulo descripcion*/
+    .title__bio{
+        font-size: 0.7rem;
+        font-weight: bold;
+       
+    }
+    
+    /*subtitulo descripcion*/
+    .title__subsection{
+        font-size: 0.35rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    
+    /*area de trabajo*/
+    .title__network{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    /*item de la lista*/
+    .title__network__item{
+        width: 5%;
+        font-size: xx-small;
+    }
+}
+/*T_A_B_L_E_T*/
+@media screen and (min-width:768px) {
+    /*TITULO*/
+    .title{
+        background-color: rgb(245, 249, 245);
+        width: 80%;
+    }
+    
+    .title__div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    /*IMAGEN DE PERFIL*/
+    .title__profile{
+        width: 25%;
+        background-color: rgb(245, 249, 245);
+    }
+    
+    /*DIV DE PERFIL*/
+    .title__container{
+        background-color: rgb(245, 249, 245);
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+       justify-content: space-around;
+       align-items: flex-start;
+    }
+    
+    /*titulo descripcion*/
+    .title__bio{
+        font-size: 1.4rem;
+        font-weight: bold;
+       
+    }
+    
+    /*subtitulo descripcion*/
+    .title__subsection{
+        font-size: 0.7rem;
+        
+    }
+    
+    /*area de trabajo*/
+    .title__network{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        
+    }
+
+    /*item de la lista*/
+    .title__network__item{
+        width: 20%;
+        font-size: small;
+    }
+}
+/*D_E_S_K_T_O_P*/
+@media screen and (min-width:1440px) {
+    /*TITULO*/
+    .title{
+        background-color: rgb(245, 249, 245);
+        width: 80%;
+    }
+    
+    .title__div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    /*IMAGEN DE PERFIL*/
+    .title__profile{
+        width: 25%;
+        background-color: rgb(245, 249, 245);
+    }
+    
+    /*DIV DE PERFIL*/
+    .title__container{
+        background-color: rgb(245, 249, 245);
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+       justify-content: space-around;
+       align-items: flex-start;
+    }
+    
+    /*titulo descripcion*/
+    .title__bio{
+        font-size: 2.8rem;
+        font-weight: bold;
+       
+    }
+    
+    /*subtitulo descripcion*/
+    .title__subsection{
+        font-size: 1.4rem;
+        
+    }
+    
+    /*area de trabajo*/
+    .title__network{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    /*item de la lista*/
+    .title__network__item{
+        width: 25%;
+        font-size: xx-large;
+    }
+}
+

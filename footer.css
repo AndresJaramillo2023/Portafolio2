@@ -1,0 +1,17 @@
+/*F O O T E R*/
+.footer{
+    background-color:  chartreuse;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*footer__rodape*/
+.footer__rodape{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
