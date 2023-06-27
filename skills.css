@@ -3,7 +3,7 @@
     /*SKILLS*/
 .skills{
     width: 80%;
-    background-color: rgb(191, 240, 184);
+    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
 
 /*Skills linea**************************/
 .skills__line{
-    background-color: rgb(191, 240, 184);
+    background-color: chartreuse;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -65,7 +65,7 @@
     /*SKILLS*/
 .skills{
     width: 80%;
-    background-color:rgb(191, 240, 184);
+    background-color:chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +84,7 @@
 
 /*Skills linea**************************/
 .skills__line{
-    background-color: rgb(191, 240, 184);
+    background-color: chartreuse;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -121,11 +121,11 @@
 }
 
 /*D_E_S_K_T_O_P*/
-@media screen and (min-width:1440px) {
+@media screen and (min-width:769px) {
     /*SKILLS*/
 .skills{
     width: 80%;
-    background-color: rgb(191, 240, 184);
+    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +144,7 @@
 
 /*Skills linea**************************/
 .skills__line{
-    background-color:rgb(191, 240, 184);
+    background-color:chartreuse;
     display: flex;
     flex-direction: row;
     width: 100%;
