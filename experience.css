@@ -164,7 +164,7 @@
     /*experiencia descripcion*/
     .experience__description{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%;
         background-color: chartreuse;
     }
@@ -180,6 +180,7 @@
         cursor: pointer;
         padding: 0.4rem 0.6rem;
         border-radius: 0.2rem;
+         margin-right:0.4rem;
     }
     .experiencia__botao--repo:hover{
         background-color: grey;
@@ -197,7 +198,7 @@
         cursor: pointer;
         padding: 0.4rem 0.6rem;
         border-radius: 0.2rem;
-    
+    	 margin-left:0.4rem;
     }
     .experience__botao--demo:hover{
         background-color: aqua;
@@ -262,8 +263,8 @@
     /*experiencia descripcion*/
     .experience__description{
         display: flex;
-        justify-content: space-between;
-        width: 60%;
+        justify-content: flex-start;
+        width: 100%;
         background-color: chartreuse;
     }
     /*experiencia repositorio*/
@@ -276,8 +277,9 @@
         color:blue;
         border-color: blue;
         cursor: pointer;
-        padding: 0.8rem 1.2rem;
+        padding: 0.2rem 0.3rem;
         border-radius: 0.2rem;
+        margin-right:0.5rem;
     }
     .experiencia__botao--repo:hover{
         background-color: grey;
@@ -293,9 +295,9 @@
         color: white;
         border-color: blue;
         cursor: pointer;
-        padding: 0.8rem 1.2rem;
+        padding: 0.2rem 0.3rem;
         border-radius: 0.2rem;
-    
+    	margin-left:0.5rem;
     }
     .experience__botao--demo:hover{
         background-color: aqua;
