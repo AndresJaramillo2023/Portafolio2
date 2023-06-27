@@ -44,7 +44,7 @@
     
     /*area de trabajo*/
     .title__network{
-        width: 90%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         
@@ -54,6 +54,17 @@
     .title__network__item{
         width: 5%;
         font-size: xx-small;
+    }
+    
+    .title__network__item > a > img:hover{
+        background-color: #FFC300 ;
+        filter: brightness(1.75);
+    }
+
+    /*title__network__item__img*/
+    .title__network__item__img{
+        width: 100%;
+        margin-bottom: 0.3rem;
     }
 }
 /*T_A_B_L_E_T*/
@@ -114,9 +125,20 @@
         width: 20%;
         font-size: small;
     }
+
+    .title__network__item > a > img:hover{
+        background-color: #FFC300 ;
+        filter: brightness(1.75);
+    }
+
+    /*title__network__item__img*/
+    .title__network__item__img{
+        width: 25%;
+        margin-bottom: 0rem;
+    }
 }
 /*D_E_S_K_T_O_P*/
-@media screen and (min-width:1440px) {
+@media screen and (min-width:769px) {
     /*TITULO*/
     .title{
         background-color: rgb(245, 249, 245);
@@ -172,5 +194,15 @@
         width: 25%;
         font-size: xx-large;
     }
-}
 
+    .title__network__item > a > img:hover{
+        background-color: #FFC300 ;
+        filter: brightness(1.75);
+    }
+
+    /*title__network__item__img*/
+    .title__network__item__img{
+        width: 25%;
+        margin-bottom: 1rem;
+    }
+}
