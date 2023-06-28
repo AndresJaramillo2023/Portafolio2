@@ -179,11 +179,15 @@ align-items: center;
 
 .menu__list{
    background-color:  chartreuse;
-   width: 60%;
+   width: 100%;
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
    height: 5rem;
    align-items: center;
+}
+
+.menu__list__item{
+ margin:0.2rem;
 }
 
 .menu__list__item:hover{
